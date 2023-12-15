@@ -17,6 +17,11 @@ struct ContentView: View {
         }
         .padding()
     }
+
+    func changeColor() {
+        let color = "red"
+        //у меня не импортирован uikit потому добавил что-то для наглядности просто
+    }
 }
 
 #Preview {
